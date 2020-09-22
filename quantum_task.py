@@ -4,12 +4,12 @@ Created on Thu Sep 10 19:15:16 2020
 
 @author: castromi
 """
-import os
+
 from qiskit import QuantumCircuit, QuantumRegister,quantum_info, Aer,BasicAer,execute
 import numpy as np
-import time
+
 from scipy.optimize import minimize
-import sys
+
 import pandas as pd
 from matplotlib import pyplot as plt
 
